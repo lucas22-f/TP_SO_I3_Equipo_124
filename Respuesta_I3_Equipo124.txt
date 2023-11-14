@@ -1,0 +1,13 @@
+Responder dentro del archivo “respuesta_I3_EquipoX.txt”
+Apellido y nombre de los alumnos que participaron de la interacción
+
+Figueroa Lucas, Escobar Leandro, Escobar Tobias Fabricio.
+Responde BETA:
+a-¿Como queda El master después de estos cambios?
+b-¿Beta pudo ver todos los cambios que se realizaron?
+c-¿que debió hacer (todos los comandos) en el punto 5 para poder hacer el merge ?
+
+a- la rama main queda actualizada con todos los archivos creados en las ramas.
+b- Si pudo ver todos los cambios que los demas hicieron.
+c- tuvo que actualizar la rama main a la ultima version y luego comparar y mergear las ramas para que no hayan conflictos.
+
