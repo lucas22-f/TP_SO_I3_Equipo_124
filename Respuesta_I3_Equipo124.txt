@@ -11,6 +11,50 @@ a- la rama main queda actualizada con todos los archivos creados en las ramas.
 b- Si pudo ver todos los cambios que los demas hicieron.
 c- tuvo que actualizar la rama main a la ultima version y luego comparar y mergear las ramas para que no hayan conflictos.
 
+5 "Lucas Figueroa" >> datos.txt
+   6 cat datos.txt
+   7 ipconfig >> datos.txt
+   8 "12:59" >> datos.txt
+   9 cat datos.txt
+  10 clear
+  11 dir
+  12 Get-WmiObject -Class Win32_Processor | Select-Object -Property Name, NumberOfCores, MaxClockSpeed, DeviceID, St...
+  13 dir
+  14 cat CPUBeta.txt
+  15 clear
+  16 git add .
+  17 git commit -m"datos Beta"
+  18 git push origin Escobar
+  19 ifconfig
+  20 git checkout -b Figueroa
+  21 git branch
+  22 "Lucas Figueroa" > beta.txt
+  23 ipconfig >> beta.txt
+  24 "13:06" >> beta.txt
+  25 git add .
+  26 git commit -m"beta.txt"
+  27 git push origin Figueroa
+  28 git status
+  29 git pull
+  30 git checkout main
+  31 git pull
+  32 clear
+  33 git add .
+  34 git commit -m"respuestas"
+  35 git push
+  36 git status
+  37 git branch
+  38 dir
+  39 git push origin main
+  40 git pull
+  41 git status
+  42 git push origin main
+
+Responde GAMMA:
+d-¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+e-¿Detalle (explique) los problemas que tuvieron al hacer el merge?
+f-¿que debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido?
+
 d- La rama creada por beta quedo con los datos actualizados, la rama de gamma no.
 
 e- Al principio hubo una confusion e hicimos el merge antes de que alfa modifique la rama de Gamma y eso traia conflictos. 
@@ -31,3 +75,20 @@ f-
   12 git add .
   13 git commit -m "Modifica Gamma"
   14 git push origin Figueroa
+
+Responde ALFA:
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+
+G-
+ 1 git checkout main
+   2 git pull
+   3 git checkout Figueroa
+   4 "Leandro Escobar" >> beta.txt
+   5 ipconfig >> beta.txt
+   6 "hora 13:13">> beta.txt
+   7 git status
+   8 git add .
+   9 git commit -m "cambios alfa"
+  10 git push origin Figueroa
+
+
