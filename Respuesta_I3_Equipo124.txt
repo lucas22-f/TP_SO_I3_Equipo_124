@@ -11,3 +11,23 @@ a- la rama main queda actualizada con todos los archivos creados en las ramas.
 b- Si pudo ver todos los cambios que los demas hicieron.
 c- tuvo que actualizar la rama main a la ultima version y luego comparar y mergear las ramas para que no hayan conflictos.
 
+d- La rama creada por beta quedo con los datos actualizados, la rama de gamma no.
+
+e- Al principio hubo una confusion e hicimos el merge antes de que alfa modifique la rama de Gamma y eso traia conflictos. 
+   Lo arreglamos y despues no hubo mas problemas.
+
+f- 
+   1 Set-Location -literalPath 'C:\Users\USURIO\Desktop\tercera interaccion\TP_SO_I3_Equipo_124'
+   2 git pull
+   3 git branch
+   4 git checkout main
+   5 git pull
+   6 git branch -a
+   7 git checkout Figueroa
+   8 "Tobias Fabricio Escobar" >> beta.txt
+   9 ipconfig >> beta.txt
+  10 "Hora 13:10" >> beta.txt
+  11 git status
+  12 git add .
+  13 git commit -m "Modifica Gamma"
+  14 git push origin Figueroa
